@@ -1,10 +1,10 @@
 {
     "name": "indevops/calendar",
     "type": "roundcube-plugin",
-    "description": "CalDav Capable Calendar plugin for Roundcube forked from Kolab 3.5.2. The _te stands for Texas Edition",
-    "homepage": "https://github.com/texxasrulez/caldav_calendar_te",
+    "description": "A calendar module for Roundcube. Fork of Texas Edition, which in turn is a fork of the original Kolab calendar.",
+    "homepage": "https://github.com/INDEVOPS/roundcube_calendar",
     "license": "GPL-3.0-only",
-    "version": "0.6.0.2",
+    "version": "0.7",
     "authors": [{
             "name": "Thomas Bruederli",
             "email": "bruederli@kolabsys.com",
@@ -18,6 +18,11 @@
         {
             "name": "Gene Hawkins",
             "email": "texxasrulez@yahoo.com",
+            "role": "Developer"
+        },
+        {
+            "name": "INDEVOPS",
+            "email": "it@indevops.com",
             "role": "Developer"
         }
     ],
@@ -38,7 +43,7 @@
     "extra": {
         "roundcube": {
             "min-version": "1.4.0",
-            "sql-dir": "drivers/database/SQL"
+            "sql-dir": "drivers/caldav/SQL"
         }
     }
 }
